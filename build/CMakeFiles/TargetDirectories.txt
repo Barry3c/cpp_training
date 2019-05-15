@@ -1,0 +1,7 @@
+/home/sandyz/Documents/projects/cpp_training/build/CMakeFiles/install/strip.dir
+/home/sandyz/Documents/projects/cpp_training/build/CMakeFiles/edit_cache.dir
+/home/sandyz/Documents/projects/cpp_training/build/CMakeFiles/cpp_training.dir
+/home/sandyz/Documents/projects/cpp_training/build/CMakeFiles/rebuild_cache.dir
+/home/sandyz/Documents/projects/cpp_training/build/CMakeFiles/list_install_components.dir
+/home/sandyz/Documents/projects/cpp_training/build/CMakeFiles/install/local.dir
+/home/sandyz/Documents/projects/cpp_training/build/CMakeFiles/install.dir

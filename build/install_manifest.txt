@@ -1,0 +1,1 @@
+/home/sandyz/Documents/projects/cpp_training/bin/cpp_training
