@@ -169,32 +169,32 @@ cpp_training/fast:
 	$(MAKE) -f CMakeFiles/cpp_training.dir/build.make CMakeFiles/cpp_training.dir/build
 .PHONY : cpp_training/fast
 
-src/cpp_training.o: src/cpp_training.cpp.o
+src/main.o: src/main.cpp.o
 
-.PHONY : src/cpp_training.o
+.PHONY : src/main.o
 
 # target to build an object file
-src/cpp_training.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp_training.dir/build.make CMakeFiles/cpp_training.dir/src/cpp_training.cpp.o
-.PHONY : src/cpp_training.cpp.o
+src/main.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp_training.dir/build.make CMakeFiles/cpp_training.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
 
-src/cpp_training.i: src/cpp_training.cpp.i
+src/main.i: src/main.cpp.i
 
-.PHONY : src/cpp_training.i
+.PHONY : src/main.i
 
 # target to preprocess a source file
-src/cpp_training.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp_training.dir/build.make CMakeFiles/cpp_training.dir/src/cpp_training.cpp.i
-.PHONY : src/cpp_training.cpp.i
+src/main.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp_training.dir/build.make CMakeFiles/cpp_training.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
 
-src/cpp_training.s: src/cpp_training.cpp.s
+src/main.s: src/main.cpp.s
 
-.PHONY : src/cpp_training.s
+.PHONY : src/main.s
 
 # target to generate assembly for a file
-src/cpp_training.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp_training.dir/build.make CMakeFiles/cpp_training.dir/src/cpp_training.cpp.s
-.PHONY : src/cpp_training.cpp.s
+src/main.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp_training.dir/build.make CMakeFiles/cpp_training.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -209,9 +209,9 @@ help:
 	@echo "... list_install_components"
 	@echo "... install/local"
 	@echo "... install"
-	@echo "... src/cpp_training.o"
-	@echo "... src/cpp_training.i"
-	@echo "... src/cpp_training.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 .PHONY : help
 
 

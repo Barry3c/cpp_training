@@ -57,38 +57,38 @@ include CMakeFiles/cpp_training.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/cpp_training.dir/flags.make
 
-CMakeFiles/cpp_training.dir/src/cpp_training.cpp.o: CMakeFiles/cpp_training.dir/flags.make
-CMakeFiles/cpp_training.dir/src/cpp_training.cpp.o: ../src/cpp_training.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sandyz/Documents/projects/cpp_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cpp_training.dir/src/cpp_training.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp_training.dir/src/cpp_training.cpp.o -c /home/sandyz/Documents/projects/cpp_training/src/cpp_training.cpp
+CMakeFiles/cpp_training.dir/src/main.cpp.o: CMakeFiles/cpp_training.dir/flags.make
+CMakeFiles/cpp_training.dir/src/main.cpp.o: ../src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sandyz/Documents/projects/cpp_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cpp_training.dir/src/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp_training.dir/src/main.cpp.o -c /home/sandyz/Documents/projects/cpp_training/src/main.cpp
 
-CMakeFiles/cpp_training.dir/src/cpp_training.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp_training.dir/src/cpp_training.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sandyz/Documents/projects/cpp_training/src/cpp_training.cpp > CMakeFiles/cpp_training.dir/src/cpp_training.cpp.i
+CMakeFiles/cpp_training.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp_training.dir/src/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sandyz/Documents/projects/cpp_training/src/main.cpp > CMakeFiles/cpp_training.dir/src/main.cpp.i
 
-CMakeFiles/cpp_training.dir/src/cpp_training.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp_training.dir/src/cpp_training.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sandyz/Documents/projects/cpp_training/src/cpp_training.cpp -o CMakeFiles/cpp_training.dir/src/cpp_training.cpp.s
+CMakeFiles/cpp_training.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp_training.dir/src/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sandyz/Documents/projects/cpp_training/src/main.cpp -o CMakeFiles/cpp_training.dir/src/main.cpp.s
 
-CMakeFiles/cpp_training.dir/src/cpp_training.cpp.o.requires:
+CMakeFiles/cpp_training.dir/src/main.cpp.o.requires:
 
-.PHONY : CMakeFiles/cpp_training.dir/src/cpp_training.cpp.o.requires
+.PHONY : CMakeFiles/cpp_training.dir/src/main.cpp.o.requires
 
-CMakeFiles/cpp_training.dir/src/cpp_training.cpp.o.provides: CMakeFiles/cpp_training.dir/src/cpp_training.cpp.o.requires
-	$(MAKE) -f CMakeFiles/cpp_training.dir/build.make CMakeFiles/cpp_training.dir/src/cpp_training.cpp.o.provides.build
-.PHONY : CMakeFiles/cpp_training.dir/src/cpp_training.cpp.o.provides
+CMakeFiles/cpp_training.dir/src/main.cpp.o.provides: CMakeFiles/cpp_training.dir/src/main.cpp.o.requires
+	$(MAKE) -f CMakeFiles/cpp_training.dir/build.make CMakeFiles/cpp_training.dir/src/main.cpp.o.provides.build
+.PHONY : CMakeFiles/cpp_training.dir/src/main.cpp.o.provides
 
-CMakeFiles/cpp_training.dir/src/cpp_training.cpp.o.provides.build: CMakeFiles/cpp_training.dir/src/cpp_training.cpp.o
+CMakeFiles/cpp_training.dir/src/main.cpp.o.provides.build: CMakeFiles/cpp_training.dir/src/main.cpp.o
 
 
 # Object files for target cpp_training
 cpp_training_OBJECTS = \
-"CMakeFiles/cpp_training.dir/src/cpp_training.cpp.o"
+"CMakeFiles/cpp_training.dir/src/main.cpp.o"
 
 # External object files for target cpp_training
 cpp_training_EXTERNAL_OBJECTS =
 
-cpp_training: CMakeFiles/cpp_training.dir/src/cpp_training.cpp.o
+cpp_training: CMakeFiles/cpp_training.dir/src/main.cpp.o
 cpp_training: CMakeFiles/cpp_training.dir/build.make
 cpp_training: CMakeFiles/cpp_training.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sandyz/Documents/projects/cpp_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable cpp_training"
@@ -99,7 +99,7 @@ CMakeFiles/cpp_training.dir/build: cpp_training
 
 .PHONY : CMakeFiles/cpp_training.dir/build
 
-CMakeFiles/cpp_training.dir/requires: CMakeFiles/cpp_training.dir/src/cpp_training.cpp.o.requires
+CMakeFiles/cpp_training.dir/requires: CMakeFiles/cpp_training.dir/src/main.cpp.o.requires
 
 .PHONY : CMakeFiles/cpp_training.dir/requires
 
