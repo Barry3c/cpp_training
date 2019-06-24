@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /home/sandyz/Documents/projects/cpp_training/build
 CMakeFiles/cpp_training.dir/all:
 	$(MAKE) -f CMakeFiles/cpp_training.dir/build.make CMakeFiles/cpp_training.dir/depend
 	$(MAKE) -f CMakeFiles/cpp_training.dir/build.make CMakeFiles/cpp_training.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sandyz/Documents/projects/cpp_training/build/CMakeFiles --progress-num=1,2 "Built target cpp_training"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sandyz/Documents/projects/cpp_training/build/CMakeFiles --progress-num=1,2,3,4 "Built target cpp_training"
 .PHONY : CMakeFiles/cpp_training.dir/all
 
 # Include target in all.
@@ -76,7 +76,7 @@ all: CMakeFiles/cpp_training.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/cpp_training.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sandyz/Documents/projects/cpp_training/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sandyz/Documents/projects/cpp_training/build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/cpp_training.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/sandyz/Documents/projects/cpp_training/build/CMakeFiles 0
 .PHONY : CMakeFiles/cpp_training.dir/rule

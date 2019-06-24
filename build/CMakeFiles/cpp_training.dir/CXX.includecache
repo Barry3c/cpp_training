@@ -6,7 +6,29 @@
 
 #IncludeRegexTransform: 
 
+../include/helper.h
+iostream
+-
+stdint.h
+-
+
+../include/test.h
+
+/home/sandyz/Documents/projects/cpp_training/src/helper.cpp
+helper.h
+/home/sandyz/Documents/projects/cpp_training/src/helper.h
+
 /home/sandyz/Documents/projects/cpp_training/src/main.cpp
 iostream
 -
+helper.h
+/home/sandyz/Documents/projects/cpp_training/src/helper.h
+test.h
+/home/sandyz/Documents/projects/cpp_training/src/test.h
+
+/home/sandyz/Documents/projects/cpp_training/src/test.cpp
+helper.h
+/home/sandyz/Documents/projects/cpp_training/src/helper.h
+test.h
+/home/sandyz/Documents/projects/cpp_training/src/test.h
 
